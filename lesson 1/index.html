@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our website</title>
+</head>
+<body>
+    <h1 id="canvas">helloworld</h1>
+</body>
+
+<script lang="javascript">
+    const canvas = document.getElementById("canvas")
+
+    canvas.addEventListener("click",() => {
+        canvas.classList.add("italics") 
+    })
+
+    console.log("helloworld")
+</script>
+<style>
+    .italics {
+    font-style: oblique
+    }
+</style>
+</html>
